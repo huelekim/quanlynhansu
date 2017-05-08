@@ -1,4 +1,6 @@
-﻿using System;
+﻿using QuanLyNhanSu.CONTROL;
+using QuanLyNhanSu.DOITUONG;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,52 +9,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QuanLyNhanSu.DOITUONG;
-using QuanLyNhanSu.CONTROL;
 
 namespace QuanLyNhanSu.VIEW
 {
-    public partial class frmChucVu : Form
+    public partial class frmPhongBan : Form
     {
-        ChucVuCTRL cv = new ChucVuCTRL();
-        ChucVuDT dtCV = new ChucVuDT();
+        PhongBanCTRL pb = new PhongBanCTRL();
+        PhongBanDT dtPB = new PhongBanDT();
         DataTable dt = new DataTable();
-        public frmChucVu()
+        public frmPhongBan()
         {
             InitializeComponent();
         }
 
-        private void frmChucVu_Them_Load(object sender, EventArgs e)
+        private void frmPhongBan_Load(object sender, EventArgs e)
         {
-            dt = cv.GetData();
-            dgvChucVu.DataSource = dt;
+
+            dt = pb.GetData();
+            dgvPhongBan.DataSource = dt;
             KL();
         }
         void KL()
         {
-            txtMaChucVu.DataBindings.Clear();
-            txtMaChucVu.DataBindings.Add("Text", dgvChucVu.DataSource, "machucvu");
-            txtTenChucVu.DataBindings.Clear();
-            txtTenChucVu.DataBindings.Add("Text", dgvChucVu.DataSource, "tenchucvu");
+            txtMaPhongBan.DataBindings.Clear();
+            txtMaPhongBan.DataBindings.Add("Text", dgvPhongBan.DataSource, "maphongban");
+            txtSoDienThoai.DataBindings.Clear();
+            txtSoDienThoai.DataBindings.Add("Text", dgvPhongBan.DataSource, "sodienthoai");
+            txtTenPhongBan.DataBindings.Clear();
+            txtTenPhongBan.DataBindings.Add("Text", dgvPhongBan.DataSource, "tenphongban");
+            txtDiaChi.DataBindings.Clear();
+            txtDiaChi.DataBindings.Add("Text", dgvPhongBan.DataSource, "diachi");
         }
         private void Cleardata()
         {
-            txtMaChucVu.Text = "";
-            txtTenChucVu.Text = "";
+            txtDiaChi.Text = "";
+            txtMaPhongBan.Text = "";
+            txtSoDienThoai.Text = "";
+            txtTenPhongBan.Text = "";
 
         }
         //ham lay du lieu tu cotroller
-         void ganDL(ChucVuDT dtCV)
+        void ganDL(PhongBanDT dtPB)
         {
-            dtCV.Machucvu = txtMaChucVu.Text.Trim();
-            dtCV.Tenchucvu = txtTenChucVu.Text.Trim();
+            dtPB.Maphongban = txtMaPhongBan.Text.Trim();
+            dtPB.Tenphongban = txtTenPhongBan.Text.Trim();
+            dtPB.Diachi = txtDiaChi.Text.Trim();
+            dtPB.Sodienthoai = txtSoDienThoai.Text.Trim();
         }
         //cài đặt ẳn hiện của các btn ,textbox
         void ANTT(bool e)
         {
-            txtMaChucVu.Enabled = e;
-            txtTenChucVu.Enabled = e;
-
+            txtSoDienThoai.Enabled = e;
+            txtDiaChi.Enabled = e;
+            txtMaPhongBan.Enabled = e;
+            txtTenPhongBan.Enabled = e;
 
             btnCapNhat.Enabled = e;
             btnHuy.Enabled = e;
@@ -73,7 +83,7 @@ namespace QuanLyNhanSu.VIEW
         {
             chon = 1;
             ANTT(true);
-            Cleardata();
+            //  Cleardata();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -82,7 +92,7 @@ namespace QuanLyNhanSu.VIEW
             if (dl == DialogResult.OK)
             {
                 //thì xóa
-                if (cv.DeleteData(txtMaChucVu.Text.Trim()))
+                if (pb.DeleteData(txtMaPhongBan.Text.Trim()))
                     MessageBox.Show("Xóa thành công ", "thông báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                     MessageBox.Show("Xóa thất bại ", "thông báo ", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -92,20 +102,20 @@ namespace QuanLyNhanSu.VIEW
             else
                 return;
 
-            frmChucVu_Them_Load(sender, e);
+            frmPhongBan_Load(sender, e);
         }
 
         private void btnCapNhat_Click(object sender, EventArgs e)
         {
-           
+
             ANTT(false);
-            ganDL(dtCV);
+            ganDL(dtPB);
             if (chon == 0)
             {
 
 
                 //them moi
-                if (cv.AddData(dtCV))
+                if (pb.AddData(dtPB))
                     MessageBox.Show("thêm thành công ", "thông báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                     MessageBox.Show("thêm thất bại ", "thông báo ", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -113,21 +123,21 @@ namespace QuanLyNhanSu.VIEW
             else
             {
 
-               //sua
-                if (cv.UpdateData(dtCV))
+                //sua
+                if (pb.UpdateData(dtPB))
                     MessageBox.Show("Sửa thành công ", "thông báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                     MessageBox.Show("Sửa thất bại ", "thông báo ", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
+
             }
 
-            frmChucVu_Them_Load(sender, e);
+            frmPhongBan_Load(sender, e);
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
         {
             ANTT(false);
-            frmChucVu_Them_Load(sender, e);
+            frmPhongBan_Load(sender, e);
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -143,7 +153,7 @@ namespace QuanLyNhanSu.VIEW
         {
 
             //tìm kiếm những chức vụ gần giống với like{0}
-            string str = string.Format("tenchucvu like '%{0}%'", txtTimKiem.Text);
+            string str = string.Format("tenphongban like '%{0}%'", txtTimKiem.Text);
             //defaultview hien những tên chức vụ
             dt.DefaultView.RowFilter = str;
 

@@ -17,7 +17,7 @@ namespace QuanLyNhanSu.MOHINH
         public DataTable GetData()
         {
             DataTable dt = new DataTable();
-            cmd.CommandText = "select nhanvien.*, phongban.tenphongban, chucvu.tenchucvu, trinhdohocvan.tentrinhdohocvan, luong.bacluong from nhanvien,phongban,chucvu,trinhdohocvan,luong where nhanvien.maphongban=phongban.maphongban and nhanvien.machucvu=chucvu.machucvu and trinhdohocvan.matrinhdohocvan = nhanvien.matrinhdohocvan and luong.bacluong = nhanvien.bacluong";
+            cmd.CommandText = "select nhanvien.*, phongban.tenphongban, chucvu.tenchucvu, trinhdohocvan.tentrinhdohocvan from nhanvien,phongban,chucvu,trinhdohocvan where nhanvien.maphongban=phongban.maphongban and nhanvien.machucvu=chucvu.machucvu and trinhdohocvan.matrinhdohocvan = nhanvien.matrinhdohocvan";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = conn.Connection;
             try
