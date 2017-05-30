@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Chức Vụ");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Phòng Ban");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Trình Độ Học Vấn");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Lương");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Hợp Đồng Lao Động");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Thông Tin Nhân Viên", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Nhân Viên");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Chức Vụ");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Phòng Ban");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Trình Độ Học Vấn");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Lương");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Hợp Đồng Lao Động");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Thông Tin Nhân Viên", new System.Windows.Forms.TreeNode[] {
+            treeNode8,
+            treeNode9,
+            treeNode10,
+            treeNode11,
+            treeNode12});
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Nhân Viên");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHelp));
             this.tvThongTinNhanVien = new System.Windows.Forms.TreeView();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
@@ -55,23 +55,23 @@
             // 
             this.tvThongTinNhanVien.Location = new System.Drawing.Point(1, 2);
             this.tvThongTinNhanVien.Name = "tvThongTinNhanVien";
-            treeNode1.Name = "Node1";
-            treeNode1.Text = "Chức Vụ";
-            treeNode2.Name = "Node2";
-            treeNode2.Text = "Phòng Ban";
-            treeNode3.Name = "Node3";
-            treeNode3.Text = "Trình Độ Học Vấn";
-            treeNode4.Name = "Node4";
-            treeNode4.Text = "Lương";
-            treeNode5.Name = "Node5";
-            treeNode5.Text = "Hợp Đồng Lao Động";
-            treeNode6.Name = "Node0";
-            treeNode6.Text = "Thông Tin Nhân Viên";
-            treeNode7.Name = "Node0";
-            treeNode7.Text = "Nhân Viên";
+            treeNode8.Name = "Node1";
+            treeNode8.Text = "Chức Vụ";
+            treeNode9.Name = "Node2";
+            treeNode9.Text = "Phòng Ban";
+            treeNode10.Name = "Node3";
+            treeNode10.Text = "Trình Độ Học Vấn";
+            treeNode11.Name = "Node4";
+            treeNode11.Text = "Lương";
+            treeNode12.Name = "Node5";
+            treeNode12.Text = "Hợp Đồng Lao Động";
+            treeNode13.Name = "Node0";
+            treeNode13.Text = "Thông Tin Nhân Viên";
+            treeNode14.Name = "Node0";
+            treeNode14.Text = "Nhân Viên";
             this.tvThongTinNhanVien.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode6,
-            treeNode7});
+            treeNode13,
+            treeNode14});
             this.tvThongTinNhanVien.Size = new System.Drawing.Size(264, 348);
             this.tvThongTinNhanVien.TabIndex = 0;
             this.tvThongTinNhanVien.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tvThongTinNhanVien_NodeMouseClick);
@@ -127,7 +127,7 @@
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.tvThongTinNhanVien);
             this.Name = "frmHelp";
-            this.Text = "frmHelp";
+            this.Text = "Hướng Dẫn Chi Tiết";
             this.Load += new System.EventHandler(this.frmHelp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
             this.bindingNavigator2.ResumeLayout(false);
