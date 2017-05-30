@@ -17,7 +17,7 @@ namespace QuanLyNhanSu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHopDong());
+            Application.Run(new frmChucVu());
         }
     }
 }
