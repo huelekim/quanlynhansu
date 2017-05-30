@@ -79,6 +79,12 @@
     <Compile Include="VIEW\frmHopDong.designer.cs">
       <DependentUpon>frmHopDong.cs</DependentUpon>
     </Compile>
+    <Compile Include="VIEW\frmTrinhDoHocVan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\frmTrinhDoHocVan.designer.cs">
+      <DependentUpon>frmTrinhDoHocVan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VIEW\frmHopDong.resx">
       <DependentUpon>frmHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\frmTrinhDoHocVan.resx">
+      <DependentUpon>frmTrinhDoHocVan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
