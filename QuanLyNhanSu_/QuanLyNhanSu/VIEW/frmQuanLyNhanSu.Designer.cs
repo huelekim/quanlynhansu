@@ -41,10 +41,9 @@
             this.menuNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.hướngDẫnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuHuongDan = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.menuThoat = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuDangXuat = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -139,8 +138,7 @@
             // hướngDẫnToolStripMenuItem
             // 
             this.hướngDẫnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuHuongDan,
-            this.menuAbout});
+            this.menuHuongDan});
             this.hướngDẫnToolStripMenuItem.Name = "hướngDẫnToolStripMenuItem";
             this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng Dẫn";
@@ -152,19 +150,19 @@
             this.menuHuongDan.Text = "Hướng Dẫn Chi Tiết";
             this.menuHuongDan.Click += new System.EventHandler(this.menuHuongDan_Click);
             // 
-            // menuAbout
-            // 
-            this.menuAbout.Name = "menuAbout";
-            this.menuAbout.Size = new System.Drawing.Size(219, 22);
-            this.menuAbout.Text = "Phần mềm quản lý nhân sự";
-            this.menuAbout.Click += new System.EventHandler(this.menuAbout_Click);
-            // 
             // menuThoat
             // 
             this.menuThoat.Name = "menuThoat";
             this.menuThoat.Size = new System.Drawing.Size(50, 20);
             this.menuThoat.Text = "Thoát";
             this.menuThoat.Click += new System.EventHandler(this.menuThoat_Click);
+            // 
+            // menuDangXuat
+            // 
+            this.menuDangXuat.Name = "menuDangXuat";
+            this.menuDangXuat.Size = new System.Drawing.Size(74, 20);
+            this.menuDangXuat.Text = "Đăng Xuất";
+            this.menuDangXuat.Click += new System.EventHandler(this.menuDangXuat_Click);
             // 
             // pictureBox1
             // 
@@ -175,13 +173,6 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // menuDangXuat
-            // 
-            this.menuDangXuat.Name = "menuDangXuat";
-            this.menuDangXuat.Size = new System.Drawing.Size(74, 20);
-            this.menuDangXuat.Text = "Đăng Xuất";
-            this.menuDangXuat.Click += new System.EventHandler(this.menuDangXuat_Click);
-            // 
             // frmQuanLyNhanSu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -189,7 +180,6 @@
             this.ClientSize = new System.Drawing.Size(825, 379);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmQuanLyNhanSu";
             this.Text = "PHẦN MỀM QUẢN LÝ NHÂN SỰ";
@@ -217,7 +207,6 @@
         private System.Windows.Forms.ToolStripMenuItem hướngDẫnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menuThoat;
         private System.Windows.Forms.ToolStripMenuItem menuHuongDan;
-        private System.Windows.Forms.ToolStripMenuItem menuAbout;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem menuDangXuat;
     }

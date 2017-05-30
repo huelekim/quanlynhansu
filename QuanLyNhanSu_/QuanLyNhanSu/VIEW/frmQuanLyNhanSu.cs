@@ -34,7 +34,8 @@ namespace QuanLyNhanSu.VIEW
 
         private void menuHuongDan_Click(object sender, EventArgs e)
         {
-
+            frmHelp h = new frmHelp();
+            h.ShowDialog();
         }
 
         private void menuAbout_Click(object sender, EventArgs e)
