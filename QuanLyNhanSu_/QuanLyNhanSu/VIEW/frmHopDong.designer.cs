@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHopDong));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpTuNgay = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,15 +49,22 @@
             this.denngay = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.manhanvien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tennhanvien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnCapNhat = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
-            this.btnHuy = new System.Windows.Forms.Button();
-            this.btnThem = new System.Windows.Forms.Button();
+            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.btnThem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnSua = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnXoa = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnHuy = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnCapNhat = new System.Windows.Forms.ToolStripButton();
+            this.btnThoat = new System.Windows.Forms.ToolStripButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHopDong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
+            this.bindingNavigator2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -175,7 +184,7 @@
             // 
             this.groupBox2.Controls.Add(this.dgvHopDong);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 235);
+            this.groupBox2.Location = new System.Drawing.Point(12, 189);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(626, 169);
             this.groupBox2.TabIndex = 61;
@@ -237,77 +246,115 @@
             this.tennhanvien.Name = "tennhanvien";
             this.tennhanvien.Width = 107;
             // 
-            // btnXoa
+            // bindingNavigator2
             // 
-            this.btnXoa.Location = new System.Drawing.Point(198, 425);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
-            this.btnXoa.TabIndex = 72;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            this.bindingNavigator2.AddNewItem = null;
+            this.bindingNavigator2.CountItem = null;
+            this.bindingNavigator2.DeleteItem = null;
+            this.bindingNavigator2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnThem,
+            this.toolStripSeparator5,
+            this.btnSua,
+            this.toolStripSeparator6,
+            this.btnXoa,
+            this.toolStripSeparator7,
+            this.btnHuy,
+            this.toolStripSeparator8,
+            this.btnCapNhat,
+            this.btnThoat});
+            this.bindingNavigator2.Location = new System.Drawing.Point(0, 368);
+            this.bindingNavigator2.MoveFirstItem = null;
+            this.bindingNavigator2.MoveLastItem = null;
+            this.bindingNavigator2.MoveNextItem = null;
+            this.bindingNavigator2.MovePreviousItem = null;
+            this.bindingNavigator2.Name = "bindingNavigator2";
+            this.bindingNavigator2.PositionItem = null;
+            this.bindingNavigator2.Size = new System.Drawing.Size(650, 25);
+            this.bindingNavigator2.TabIndex = 69;
+            this.bindingNavigator2.Text = "bindingNavigator2";
+            // 
+            // btnThem
+            // 
+            this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
+            this.btnThem.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(58, 22);
+            this.btnThem.Text = "Thêm";
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(117, 425);
+            this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
+            this.btnSua.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
-            this.btnSua.TabIndex = 71;
+            this.btnSua.Size = new System.Drawing.Size(46, 22);
             this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
+            this.btnXoa.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(47, 22);
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            // 
+            // btnHuy
+            // 
+            this.btnHuy.Image = ((System.Drawing.Image)(resources.GetObject("btnHuy.Image")));
+            this.btnHuy.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(49, 22);
+            this.btnHuy.Text = "Hủy";
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
             // 
             // btnCapNhat
             // 
-            this.btnCapNhat.Location = new System.Drawing.Point(316, 425);
+            this.btnCapNhat.Image = ((System.Drawing.Image)(resources.GetObject("btnCapNhat.Image")));
+            this.btnCapNhat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCapNhat.Name = "btnCapNhat";
-            this.btnCapNhat.Size = new System.Drawing.Size(75, 23);
-            this.btnCapNhat.TabIndex = 70;
+            this.btnCapNhat.Size = new System.Drawing.Size(77, 22);
             this.btnCapNhat.Text = "Cập Nhật";
-            this.btnCapNhat.UseVisualStyleBackColor = true;
             this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(499, 425);
+            this.btnThoat.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
+            this.btnThoat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 23);
-            this.btnThoat.TabIndex = 69;
+            this.btnThoat.Size = new System.Drawing.Size(42, 22);
             this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-            // 
-            // btnHuy
-            // 
-            this.btnHuy.Location = new System.Drawing.Point(407, 425);
-            this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 23);
-            this.btnHuy.TabIndex = 68;
-            this.btnHuy.Text = "Hủy";
-            this.btnHuy.UseVisualStyleBackColor = true;
-            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
-            // 
-            // btnThem
-            // 
-            this.btnThem.Location = new System.Drawing.Point(31, 425);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
-            this.btnThem.TabIndex = 67;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // frmHopDong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 460);
-            this.Controls.Add(this.btnXoa);
-            this.Controls.Add(this.btnSua);
-            this.Controls.Add(this.btnCapNhat);
-            this.Controls.Add(this.btnThoat);
-            this.Controls.Add(this.btnHuy);
-            this.Controls.Add(this.btnThem);
+            this.ClientSize = new System.Drawing.Size(650, 393);
+            this.Controls.Add(this.bindingNavigator2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmHopDong";
@@ -317,7 +364,11 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHopDong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
+            this.bindingNavigator2.ResumeLayout(false);
+            this.bindingNavigator2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -336,17 +387,22 @@
         private System.Windows.Forms.DataGridView dgvHopDong;
         private System.Windows.Forms.DateTimePicker dtpTuNgay;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button btnCapNhat;
-        private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Button btnHuy;
-        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.DataGridViewTextBoxColumn mahopdong;
         private System.Windows.Forms.DataGridViewTextBoxColumn loaihopdong;
         private System.Windows.Forms.DataGridViewTextBoxColumn tungay;
         private System.Windows.Forms.DataGridViewTextBoxColumn denngay;
         private System.Windows.Forms.DataGridViewTextBoxColumn manhanvien;
         private System.Windows.Forms.DataGridViewTextBoxColumn tennhanvien;
+        private System.Windows.Forms.BindingNavigator bindingNavigator2;
+        private System.Windows.Forms.ToolStripButton btnThem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton btnSua;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripButton btnXoa;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripButton btnHuy;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripButton btnCapNhat;
+        private System.Windows.Forms.ToolStripButton btnThoat;
     }
 }
