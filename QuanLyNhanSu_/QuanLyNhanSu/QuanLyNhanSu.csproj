@@ -79,6 +79,12 @@
     <Compile Include="VIEW\frmHopDong.designer.cs">
       <DependentUpon>frmHopDong.cs</DependentUpon>
     </Compile>
+    <Compile Include="VIEW\frmLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\frmLuong.designer.cs">
+      <DependentUpon>frmLuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEW\frmTrinhDoHocVan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VIEW\frmHopDong.resx">
       <DependentUpon>frmHopDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\frmLuong.resx">
+      <DependentUpon>frmLuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VIEW\frmTrinhDoHocVan.resx">
       <DependentUpon>frmTrinhDoHocVan.cs</DependentUpon>
