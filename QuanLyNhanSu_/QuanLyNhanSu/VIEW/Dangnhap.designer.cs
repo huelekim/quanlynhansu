@@ -95,20 +95,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.Location = new System.Drawing.Point(49, 85);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 13);
+            this.label3.Size = new System.Drawing.Size(66, 15);
             this.label3.TabIndex = 9;
             this.label3.Text = "Mật Khẩu :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.Location = new System.Drawing.Point(49, 47);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 13);
+            this.label4.Size = new System.Drawing.Size(100, 15);
             this.label4.TabIndex = 8;
             this.label4.Text = "Tên Đăng Nhập :";
             // 

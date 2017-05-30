@@ -159,7 +159,10 @@ namespace QuanLyNhanSu.VIEW
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            this.Close();
+
+            this.Hide();
+            frmQuanLyNhanSu ql = new frmQuanLyNhanSu();
+            ql.Show();
         }
     }
 }

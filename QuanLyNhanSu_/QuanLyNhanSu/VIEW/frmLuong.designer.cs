@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLuong));
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnTimKiem = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbl = new System.Windows.Forms.Label();
@@ -59,7 +60,6 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.btnCapNhat = new System.Windows.Forms.ToolStripButton();
             this.btnThoat = new System.Windows.Forms.ToolStripButton();
-            this.btnTimKiem = new System.Windows.Forms.Button();
             this.groupBox5.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLuong)).BeginInit();
@@ -73,13 +73,29 @@
             this.groupBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox5.Controls.Add(this.btnTimKiem);
             this.groupBox5.Controls.Add(this.txtTimKiem);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(12, 117);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(578, 58);
             this.groupBox5.TabIndex = 49;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Tìm Kiếm";
+            // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.Enabled = false;
+            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
+            this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnTimKiem.Location = new System.Drawing.Point(427, 19);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnTimKiem.Size = new System.Drawing.Size(75, 23);
+            this.btnTimKiem.TabIndex = 41;
+            this.btnTimKiem.Text = "Tìm Kiếm";
+            this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.btnTimKiem.UseVisualStyleBackColor = true;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // txtTimKiem
             // 
@@ -104,7 +120,7 @@
             this.groupBox1.Controls.Add(this.txtBacLuong);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(578, 100);
@@ -127,7 +143,7 @@
             this.txtHeSoPhuCap.Enabled = false;
             this.txtHeSoPhuCap.Location = new System.Drawing.Point(411, 64);
             this.txtHeSoPhuCap.Name = "txtHeSoPhuCap";
-            this.txtHeSoPhuCap.Size = new System.Drawing.Size(103, 20);
+            this.txtHeSoPhuCap.Size = new System.Drawing.Size(103, 22);
             this.txtHeSoPhuCap.TabIndex = 7;
             // 
             // label4
@@ -145,7 +161,7 @@
             this.txtHeSoLuong.Enabled = false;
             this.txtHeSoLuong.Location = new System.Drawing.Point(411, 32);
             this.txtHeSoLuong.Name = "txtHeSoLuong";
-            this.txtHeSoLuong.Size = new System.Drawing.Size(103, 20);
+            this.txtHeSoLuong.Size = new System.Drawing.Size(103, 22);
             this.txtHeSoLuong.TabIndex = 5;
             // 
             // label3
@@ -163,7 +179,7 @@
             this.txtLuongCoBan.Enabled = false;
             this.txtLuongCoBan.Location = new System.Drawing.Point(105, 64);
             this.txtLuongCoBan.Name = "txtLuongCoBan";
-            this.txtLuongCoBan.Size = new System.Drawing.Size(103, 20);
+            this.txtLuongCoBan.Size = new System.Drawing.Size(103, 22);
             this.txtLuongCoBan.TabIndex = 3;
             // 
             // txtBacLuong
@@ -171,7 +187,7 @@
             this.txtBacLuong.Enabled = false;
             this.txtBacLuong.Location = new System.Drawing.Point(105, 32);
             this.txtBacLuong.Name = "txtBacLuong";
-            this.txtBacLuong.Size = new System.Drawing.Size(103, 20);
+            this.txtBacLuong.Size = new System.Drawing.Size(103, 22);
             this.txtBacLuong.TabIndex = 2;
             // 
             // label1
@@ -203,10 +219,10 @@
             this.hesoluong,
             this.hesophucap});
             this.dgvLuong.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvLuong.Location = new System.Drawing.Point(3, 16);
+            this.dgvLuong.Location = new System.Drawing.Point(3, 18);
             this.dgvLuong.Name = "dgvLuong";
             this.dgvLuong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLuong.Size = new System.Drawing.Size(572, 136);
+            this.dgvLuong.Size = new System.Drawing.Size(572, 134);
             this.dgvLuong.TabIndex = 0;
             // 
             // bacluong
@@ -240,7 +256,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dgvLuong);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 181);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(578, 155);
@@ -343,29 +359,12 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
             this.btnThoat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(42, 22);
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Size = new System.Drawing.Size(82, 22);
+            this.btnThoat.Text = "Trang Chủ";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-            // 
-            // btnTimKiem
-            // 
-            this.btnTimKiem.Enabled = false;
-            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
-            this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnTimKiem.Location = new System.Drawing.Point(427, 19);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnTimKiem.Size = new System.Drawing.Size(75, 23);
-            this.btnTimKiem.TabIndex = 41;
-            this.btnTimKiem.Text = "Tìm Kiếm";
-            this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btnTimKiem.UseVisualStyleBackColor = true;
-            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // frmLuong
             // 

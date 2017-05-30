@@ -142,6 +142,9 @@
     <EmbeddedResource Include="VIEW\frmPhongBan.resx">
       <DependentUpon>frmPhongBan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\frmQuanLyNhanSu.resx">
+      <DependentUpon>frmQuanLyNhanSu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VIEW\frmTrinhDoHocVan.resx">
       <DependentUpon>frmTrinhDoHocVan.cs</DependentUpon>
     </EmbeddedResource>

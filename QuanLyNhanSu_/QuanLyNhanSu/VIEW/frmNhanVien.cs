@@ -48,7 +48,7 @@ namespace QuanLyNhanSu.VIEW
             cmbChucVu.DataBindings.Clear();
             cmbChucVu.DataBindings.Add("Text", dgvNhanVien.DataSource, "tenchucvu");
             cmbBacLuong.DataBindings.Clear();
-            cmbBacLuong.DataBindings.Add("Text", dgvNhanVien.DataSource, "bacluong");
+            cmbBacLuong.DataBindings.Add("Text", dgvNhanVien.DataSource, "luongcoban");
             cmbPhongBan.DataBindings.Clear();
             cmbPhongBan.DataBindings.Add("Text", dgvNhanVien.DataSource, "tenphongban");
             cmbTrinhDoHocVan.DataBindings.Clear();
@@ -79,7 +79,7 @@ namespace QuanLyNhanSu.VIEW
         {
             LuongCTRL b = new LuongCTRL();
             cmbBacLuong.DataSource = b.GetData();
-            cmbBacLuong.DisplayMember = "bacluong";
+            cmbBacLuong.DisplayMember = "luongcoban";
             cmbBacLuong.ValueMember = "bacluong";
         }
         private void Cleardata()
@@ -229,7 +229,9 @@ namespace QuanLyNhanSu.VIEW
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            frmQuanLyNhanSu ql = new frmQuanLyNhanSu();
+            ql.Show();
         }
         private void txtTimKiem_Click(object sender, EventArgs e)
         {

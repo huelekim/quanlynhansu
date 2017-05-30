@@ -69,7 +69,7 @@
             this.groupBox5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.groupBox5.Controls.Add(this.btnTimKiem);
             this.groupBox5.Controls.Add(this.txtTimKiem);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(6, 118);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(578, 58);
@@ -108,7 +108,7 @@
             this.groupBox1.Controls.Add(this.txtMaTrinhDoHocVan);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(6, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(578, 100);
@@ -121,7 +121,7 @@
             this.txtChuyenNganh.Enabled = false;
             this.txtChuyenNganh.Location = new System.Drawing.Point(411, 32);
             this.txtChuyenNganh.Name = "txtChuyenNganh";
-            this.txtChuyenNganh.Size = new System.Drawing.Size(142, 20);
+            this.txtChuyenNganh.Size = new System.Drawing.Size(142, 22);
             this.txtChuyenNganh.TabIndex = 5;
             // 
             // label3
@@ -139,7 +139,7 @@
             this.txtTenTrinhDoHocVan.Enabled = false;
             this.txtTenTrinhDoHocVan.Location = new System.Drawing.Point(136, 64);
             this.txtTenTrinhDoHocVan.Name = "txtTenTrinhDoHocVan";
-            this.txtTenTrinhDoHocVan.Size = new System.Drawing.Size(145, 20);
+            this.txtTenTrinhDoHocVan.Size = new System.Drawing.Size(145, 22);
             this.txtTenTrinhDoHocVan.TabIndex = 3;
             // 
             // txtMaTrinhDoHocVan
@@ -147,7 +147,7 @@
             this.txtMaTrinhDoHocVan.Enabled = false;
             this.txtMaTrinhDoHocVan.Location = new System.Drawing.Point(136, 32);
             this.txtMaTrinhDoHocVan.Name = "txtMaTrinhDoHocVan";
-            this.txtMaTrinhDoHocVan.Size = new System.Drawing.Size(145, 20);
+            this.txtMaTrinhDoHocVan.Size = new System.Drawing.Size(145, 22);
             this.txtMaTrinhDoHocVan.TabIndex = 2;
             // 
             // label1
@@ -173,7 +173,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dgvTrinhDoHocVan);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(6, 182);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(578, 155);
@@ -189,10 +189,10 @@
             this.tentrinhdohocvan,
             this.chuyennganh});
             this.dgvTrinhDoHocVan.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvTrinhDoHocVan.Location = new System.Drawing.Point(3, 16);
+            this.dgvTrinhDoHocVan.Location = new System.Drawing.Point(3, 18);
             this.dgvTrinhDoHocVan.Name = "dgvTrinhDoHocVan";
             this.dgvTrinhDoHocVan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvTrinhDoHocVan.Size = new System.Drawing.Size(572, 136);
+            this.dgvTrinhDoHocVan.Size = new System.Drawing.Size(572, 134);
             this.dgvTrinhDoHocVan.TabIndex = 0;
             // 
             // matrinhdohocvan
@@ -310,12 +310,11 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
             this.btnThoat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(42, 22);
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Size = new System.Drawing.Size(82, 22);
+            this.btnThoat.Text = "Trang Chủ";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // frmTrinhDoHocVan

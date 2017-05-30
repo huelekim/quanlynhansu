@@ -80,7 +80,7 @@
             this.groupBox1.Controls.Add(this.txtMaHopDong);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 21);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(626, 144);
@@ -93,7 +93,7 @@
             this.dtpTuNgay.Enabled = false;
             this.dtpTuNgay.Location = new System.Drawing.Point(439, 32);
             this.dtpTuNgay.Name = "dtpTuNgay";
-            this.dtpTuNgay.Size = new System.Drawing.Size(167, 20);
+            this.dtpTuNgay.Size = new System.Drawing.Size(167, 22);
             this.dtpTuNgay.TabIndex = 27;
             // 
             // label4
@@ -112,7 +112,7 @@
             this.dtpDenNgay.Enabled = false;
             this.dtpDenNgay.Location = new System.Drawing.Point(439, 65);
             this.dtpDenNgay.Name = "dtpDenNgay";
-            this.dtpDenNgay.Size = new System.Drawing.Size(167, 20);
+            this.dtpDenNgay.Size = new System.Drawing.Size(167, 22);
             this.dtpDenNgay.TabIndex = 25;
             // 
             // cmbTenNhanVien
@@ -121,7 +121,7 @@
             this.cmbTenNhanVien.FormattingEnabled = true;
             this.cmbTenNhanVien.Location = new System.Drawing.Point(105, 100);
             this.cmbTenNhanVien.Name = "cmbTenNhanVien";
-            this.cmbTenNhanVien.Size = new System.Drawing.Size(198, 21);
+            this.cmbTenNhanVien.Size = new System.Drawing.Size(198, 24);
             this.cmbTenNhanVien.TabIndex = 18;
             // 
             // label11
@@ -149,7 +149,7 @@
             this.txtLoaiHopDong.Enabled = false;
             this.txtLoaiHopDong.Location = new System.Drawing.Point(105, 64);
             this.txtLoaiHopDong.Name = "txtLoaiHopDong";
-            this.txtLoaiHopDong.Size = new System.Drawing.Size(198, 20);
+            this.txtLoaiHopDong.Size = new System.Drawing.Size(198, 22);
             this.txtLoaiHopDong.TabIndex = 3;
             // 
             // txtMaHopDong
@@ -157,7 +157,7 @@
             this.txtMaHopDong.Enabled = false;
             this.txtMaHopDong.Location = new System.Drawing.Point(105, 32);
             this.txtMaHopDong.Name = "txtMaHopDong";
-            this.txtMaHopDong.Size = new System.Drawing.Size(198, 20);
+            this.txtMaHopDong.Size = new System.Drawing.Size(198, 22);
             this.txtMaHopDong.TabIndex = 2;
             // 
             // label1
@@ -183,7 +183,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dgvHopDong);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 189);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(626, 169);
@@ -202,10 +202,10 @@
             this.manhanvien,
             this.tennhanvien});
             this.dgvHopDong.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvHopDong.Location = new System.Drawing.Point(3, 16);
+            this.dgvHopDong.Location = new System.Drawing.Point(3, 18);
             this.dgvHopDong.Name = "dgvHopDong";
             this.dgvHopDong.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvHopDong.Size = new System.Drawing.Size(620, 150);
+            this.dgvHopDong.Size = new System.Drawing.Size(620, 148);
             this.dgvHopDong.TabIndex = 0;
             // 
             // mahopdong
@@ -244,7 +244,7 @@
             this.tennhanvien.DataPropertyName = "tennhanvien";
             this.tennhanvien.HeaderText = "Tên Nhân Viên";
             this.tennhanvien.Name = "tennhanvien";
-            this.tennhanvien.Width = 107;
+            this.tennhanvien.Width = 112;
             // 
             // bindingNavigator2
             // 
@@ -341,12 +341,11 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
             this.btnThoat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(42, 22);
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Size = new System.Drawing.Size(82, 22);
+            this.btnThoat.Text = "Trang Chủ";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // frmHopDong

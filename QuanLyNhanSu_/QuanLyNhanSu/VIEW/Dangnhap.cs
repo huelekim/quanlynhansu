@@ -29,9 +29,6 @@ namespace QuanLyNhanSu.VIEW
                 Application.Exit();
         }
 
-
-
-
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             //Kiểm tra dữ liệu đăng nhập
@@ -40,8 +37,10 @@ namespace QuanLyNhanSu.VIEW
 
                 MessageBox.Show("Đăng nhập thành công!", "Thông báo");
                 dangnhapthanhcong = true;
+                this.Hide();
                 frmQuanLyNhanSu Nv = new frmQuanLyNhanSu(); // mở form chính
                 Nv.ShowDialog();
+               
             }
             else
             {
