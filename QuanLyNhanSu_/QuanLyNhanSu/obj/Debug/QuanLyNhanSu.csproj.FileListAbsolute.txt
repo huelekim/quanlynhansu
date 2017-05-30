@@ -19,3 +19,15 @@ C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu+hopdong\QuanLyN
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmChucVu.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmDangNhap.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmHopDong.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmLuong.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmNhanVien.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmPhongBan.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmTrinhDoHocVan.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
