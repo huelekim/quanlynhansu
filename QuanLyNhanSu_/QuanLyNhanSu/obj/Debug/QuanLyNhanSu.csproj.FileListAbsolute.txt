@@ -24,7 +24,6 @@ C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\bin\Debu
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmChucVu.resources
-C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmDangNhap.resources
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmHopDong.resources
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmLuong.resources
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmNhanVien.resources

@@ -73,12 +73,6 @@
     <Compile Include="VIEW\frmChucVu.Designer.cs">
       <DependentUpon>frmChucVu.cs</DependentUpon>
     </Compile>
-    <Compile Include="VIEW\frmDangNhap.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VIEW\frmDangNhap.designer.cs">
-      <DependentUpon>frmDangNhap.cs</DependentUpon>
-    </Compile>
     <Compile Include="VIEW\frmHopDong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,9 +114,6 @@
     </Compile>
     <EmbeddedResource Include="VIEW\frmChucVu.resx">
       <DependentUpon>frmChucVu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VIEW\frmDangNhap.resx">
-      <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VIEW\frmHopDong.resx">
       <DependentUpon>frmHopDong.cs</DependentUpon>
