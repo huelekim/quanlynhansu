@@ -30,3 +30,4 @@ C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debu
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmPhongBan.resources
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmTrinhDoHocVan.resources
 C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmDangNhap.resources
