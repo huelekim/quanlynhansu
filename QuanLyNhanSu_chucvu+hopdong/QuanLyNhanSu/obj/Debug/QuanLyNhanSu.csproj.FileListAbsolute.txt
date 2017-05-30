@@ -1,0 +1,15 @@
+c:\users\huelk\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+c:\users\huelk\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+c:\users\huelk\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+c:\users\huelk\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\HueLK\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\HueLK\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\HueLK\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\HueLK\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\HueLK\documents\visual studio 2015\Projects\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.VIEW.frmChucVu.resources
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\HueLK\Documents\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\HueLK\Documents\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\HueLK\Documents\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
