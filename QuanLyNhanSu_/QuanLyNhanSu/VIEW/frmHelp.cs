@@ -30,8 +30,8 @@ namespace QuanLyNhanSu.VIEW
             if (e.Node.Text == "Hợp Đồng Lao Động")
                 webBrowser1.Navigate(@"C:\Users\HueLK\Documents\Hướng Dẫn Hợp Đồng.htm");
             if (e.Node.Text == "Nhân Viên")
-                //webBrowser1.Navigate(@"C:\Users\HueLK\Documents\Hướng Dẫn Nhân Viên.htm");
-                webBrowser1.Navigate(@"C:\Users\HueLK\Documents\hd.mht");
+                webBrowser1.Navigate(@"C:\Users\HueLK\Documents\Hướng Dẫn Nhân Viên.htm");
+           
         }
 
         private void frmHelp_Load(object sender, EventArgs e)
