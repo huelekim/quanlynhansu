@@ -13,3 +13,6 @@ C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu\QuanLyNhanSu_ch
 C:\Users\HueLK\Documents\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
 C:\Users\HueLK\Documents\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\HueLK\Documents\QuanLyNhanSu_chucvu\QuanLyNhanSu_chucvu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu+hopdong\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu+hopdong\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\HueLK\Documents\GitHub\quanlynhansu\QuanLyNhanSu_chucvu+hopdong\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
